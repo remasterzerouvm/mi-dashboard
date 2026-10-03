@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es-MX" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hoy · Emanuel</title>
+<meta name="description" content="Clima, noticias y anime del día">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0b1020">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌤️</text></svg>">
+<script>
+  // Theme before paint: saved choice > OS preference > dark
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (!t) t = (window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+<header class="top">
+  <div>
+    <p class="eyebrow" id="date">&nbsp;</p>
+    <h1 id="greeting">Hola, Emanuel</h1>
+  </div>
+  <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar tema">
+    <span class="i-sun">☀️</span><span class="i-moon">🌙</span>
+  </button>
+</header>
+
+<main class="grid">
+  <!-- CLIMA -->
+  <section class="card weather" id="clima" aria-labelledby="h-clima">
+    <div class="card-head">
+      <h2 id="h-clima"><span class="h-ico">🌡️</span> Clima</h2>
+      <span class="muted small">Apodaca, N.L.</span>
+    </div>
+    <div id="weatherBody" class="weather-body">
+      <div class="skeleton" style="height:120px"></div>
+      <div class="skeleton" style="height:64px;margin-top:12px"></div>
+    </div>
+  </section>
+
+  <!-- NOTICIAS -->
+  <section class="card news" id="noticias" aria-labelledby="h-news">
+    <div class="card-head">
+      <h2 id="h-news"><span class="h-ico">📰</span> Noticias</h2>
+      <span class="muted small" id="newsMeta"></span>
+    </div>
+    <div id="trends" class="trends" hidden></div>
+    <ol id="newsList" class="news-list"><li class="skeleton" style="height:80px"></li></ol>
+  </section>
+
+  <!-- ANIME -->
+  <section class="card anime" id="anime" aria-labelledby="h-anime">
+    <div class="card-head">
+      <h2 id="h-anime"><span class="h-ico">🎬</span> Anime de hoy</h2>
+      <div class="tabs" role="tablist">
+        <button role="tab" class="tab active" data-tab="hoy" aria-selected="true">Hoy</button>
+        <button role="tab" class="tab" data-tab="semana" aria-selected="false">Esta semana</button>
+        <button role="tab" class="tab" data-tab="lista" aria-selected="false">Mi lista</button>
+      </div>
+    </div>
+    <div id="animeBody"><div class="skeleton" style="height:90px"></div></div>
+    <p class="muted tiny legend">Emisión = hora oficial en Japón convertida a Monterrey (AniList). Sub = hora típica de SubsPlease.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p><strong>Actualizado:</strong> <span id="updated">—</span></p>
+  <p class="muted tiny" id="weatherUpdated"></p>
+  <p class="muted tiny">Datos: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> ·
+    <a href="https://anilist.co/" target="_blank" rel="noopener">AniList</a> ·
+    <a href="https://subsplease.org/schedule/" target="_blank" rel="noopener">SubsPlease</a> · RSS de cada medio</p>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
