@@ -1,682 +1,536 @@
 {
-  "generated_at": "2026-10-21T06:56:21-06:00",
-  "timezone": "America/Monterrey",
-  "location": {
-    "name": "Apodaca, Nuevo León",
-    "cp": "66612",
-    "lat": 25.78,
-    "lon": -100.19
+ "generated_at": "2026-10-21T14:53:27-06:00",
+ "timezone": "America/Monterrey",
+ "location": {
+  "name": "Apodaca, Nuevo León",
+  "cp": "66612",
+  "lat": 25.78,
+  "lon": -100.19
+ },
+ "news": [
+  {
+   "title": "Del Campo señala compromiso de Rayadas por ganar el Clásico Regio Femenil: ‘Hemos quedado a deber’",
+   "source": "ABC Noticias",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMDBqMFpxdEZlalVZTEVNaUNxdkR1NWFBTjY1ZFR6V250Q0dnQjhWLTRfS3M5U2tQemY0SXIxNWZYRGVQNVY2VXgxSzRFQVB3RUVQMGZnaFhxS1FZY2RCS21YNmEzXzUteU1HMTByNU9YYzFuUl9lRGZVS0cySXR4Z1dsbDJPV3NHMFZCQmEwXzNqNXQxT242bG42ZlpmRWdKMVVrRC1UdnRQbXU5SHlwRVUyTkV4SHdyYTFqT3ZXZ2RVMUhJYmYweWc4S3lRbjhKd1plQUdpMGJXUjNnQlpvR2MtSTE?oc=5",
+   "summary": "",
+   "published": "2026-10-21T14:43:00-06:00",
+   "tier": "local"
   },
-  "news": [
-    {
-      "title": "Choca patrulla de Monterrey contra vehículo; hay dos lesionados",
-      "source": "Info7",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNy1SMGdIR0dkLXAwZEZMTjNQcm5MdndUOFgxRmR1dW5ycXBsazNuQ0EzZ193WmZVMTlrcGF1YlNWdHVVX05GRW9iSUUtYllFei0yWXpwaXZCLTBnQXIwZVByOXZRV2hzSy1YTFJ1dXBVUC1KR3FqQzhCUVk1ZTJ5V2FhMEctODhURE1kME8tV1o3RFU4Tl96d0IzdlV6TWRqdGc?oc=5",
-      "summary": "",
-      "published": "2026-10-21T06:42:00-06:00",
-      "tier": "local"
-    },
-    {
-      "title": "UANL reconoce la trayectoria de tres médicos con la Medalla Dr. José Eleuterio González 2026",
-      "source": "ABC Noticias",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVW1oSm1sSENlczI5MFlwNmRIdjlqS1VoVUdCSFNNc3E0WmZhbVV2S0xkV0F1d1kyMjg4Zm1PODdkaTlodjNyeTM1RnpDMnBUSHlLempQQWxJNjdudDZXdm1oQm13ODlzcm5iTHNjeUd4REFRMVhqT2hBaFF3eXdCdnhUaEFRN1NNQThFVmhzVnp6QXZHMWxxX0MxMExaSmh5bjhsTS1jQnUwZlgtcUV1RDhyaXhIRWtWSVZzOUZzclJ4RDJDYk1KcUcycUR0cXFlVzZZMmV1ODVXZU0?oc=5",
-      "summary": "",
-      "published": "2026-10-21T06:36:31-06:00",
-      "tier": "local"
-    },
-    {
-      "title": "La esencia de Waitress llega a Monterrey",
-      "source": "El Norte",
-      "link": "https://www.elnorte.com/la-esencia-de-waitress-llega-a-monterrey/ar3298890",
-      "summary": "Waitress celebra sus 10 años en Broadway con gira que llegará a Monterrey del 30 de octubre al 1 de noviembre, llena de música y emoción.",
-      "published": "2026-10-21T05:00:35-06:00",
-      "tier": "local"
-    },
-    {
-      "title": "Mantendrá dirigencia nacional de Morena designación de Clara Luz",
-      "source": "El Porvenir",
-      "link": "https://www.elporvenir.mx/local/mantendra-dirigencia-nacional-de-morena-designacion-de-clara-luz/1036754",
-      "summary": "La dirigente nacional aseguró que Morena mantendrá abiertos los espacios para que sus militantes expongan sus diferencias.",
-      "published": "2026-10-21T01:56:00-06:00",
-      "tier": "local"
-    },
-    {
-      "title": "Esperando el ajuste",
-      "source": "El Financiero",
-      "link": "https://www.elfinanciero.com.mx/opinion/macario-schettino/2026/10/21/esperando-el-ajuste/",
-      "summary": "La inercia proveniente de las administraciones anteriores: el comercio, los ahorros, las inversiones, han permitido sobrevivir ocho años de incompetencia y saqueo, pero nada dura para siempre.",
-      "published": "2026-10-21T06:43:50-06:00",
-      "tier": "national"
-    },
-    {
-      "title": "Metro CDMX mantiene servicio provisional en Línea 9; RTP apoya traslado de usuarios",
-      "source": "El Universal",
-      "link": "https://www.eluniversal.com.mx/metropoli/metro-cdmx-mantiene-servicio-provisional-en-linea-9-rtp-apoya-traslado-de-usuarios/",
-      "summary": "El servicio de trenes opera de Tacubaya a Chabacano en ambos sentidos, mientras que el tramo de Chabacano a Pantitlán permanece sin servicio tras un incendio en las inmediaciones de las vías",
-      "published": "2026-10-21T06:30:50-06:00",
-      "tier": "national"
-    },
-    {
-      "title": "\"Me cambió la voz\": Selena Gomez revela cómo vapear nicotina la afectó y pide a sus fans que no lo hagan",
-      "source": "BBC Mundo",
-      "link": "https://www.bbc.com/mundo/articles/ckr5yemlj14po?at_medium=RSS&at_campaign=rss",
-      "summary": "La cantante de 34 años afirma que el vapeo de nicotina \"en grandes cantidades\" afectó permanentemente su voz.",
-      "published": "2026-10-21T06:42:19-06:00",
-      "tier": "intl"
-    },
-    {
-      "title": "El Constitucional rechaza el amparo por la ‘ley de nietos’ y deja en el aire el voto de 160.000 españoles",
-      "source": "El País América",
-      "link": "https://elpais.com/espana/2026-10-21/el-constitucional-rechaza-el-amparo-por-la-ley-de-nietos-con-el-voto-en-contra-de-dos-magistrados-progresistas.html",
-      "summary": "Diez magistrados consideran que debe agotarse primero la vía del Tribunal Supremo y han inadmitido el recurso del Defensor del Pueblo con el voto en contra de dos progresistas",
-      "published": "2026-10-21T06:21:09-06:00",
-      "tier": "intl"
-    }
-  ],
-  "news_sources": [
-    {
-      "source": "El Porvenir",
-      "tier": "local",
-      "url": "https://elporvenir.mx/feedgooglenews/local",
-      "ok": true,
-      "items": 30
-    },
-    {
-      "source": "El Norte",
-      "tier": "local",
-      "url": "https://www.elnorte.com/rss/portada.xml",
-      "ok": true,
-      "items": 2
-    },
-    {
-      "source": "Milenio Monterrey",
-      "tier": "local",
-      "url": "https://news.google.com/rss/search?q=site%3Amilenio.com%20monterrey%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 30
-    },
-    {
-      "source": "Telediario",
-      "tier": "local",
-      "url": "https://news.google.com/rss/search?q=site%3Atelediario.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 12
-    },
-    {
-      "source": "Info7",
-      "tier": "local",
-      "url": "https://news.google.com/rss/search?q=site%3Ainfo7.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 5
-    },
-    {
-      "source": "ABC Noticias",
-      "tier": "local",
-      "url": "https://news.google.com/rss/search?q=site%3Aabcnoticias.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 16
-    },
-    {
-      "source": "El Horizonte",
-      "tier": "local",
-      "url": "https://news.google.com/rss/search?q=site%3Aelhorizonte.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 2
-    },
-    {
-      "source": "Google News Monterrey",
-      "tier": "local",
-      "url": "https://news.google.com/rss/headlines/section/geo/Monterrey?hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 29
-    },
-    {
-      "source": "El Universal",
-      "tier": "national",
-      "url": "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/?outputType=xml",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "El Financiero",
-      "tier": "national",
-      "url": "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "Excélsior",
-      "tier": "national",
-      "url": "https://www.excelsior.com.mx/rss",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "Excélsior",
-      "tier": "national",
-      "url": "https://news.google.com/rss/search?q=site%3Aexcelsior.com.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "Infobae México",
-      "tier": "national",
-      "url": "https://news.google.com/rss/search?q=site%3Ainfobae.com/mexico%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "El Porvenir",
-      "tier": "national",
-      "url": "https://elporvenir.mx/feedgooglenews/nacional",
-      "ok": true,
-      "items": 30
-    },
-    {
-      "source": "La Jornada",
-      "tier": "national",
-      "url": "https://www.jornada.com.mx/rss/edicion.xml",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "BBC Mundo",
-      "tier": "intl",
-      "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
-      "ok": true,
-      "items": 34
-    },
-    {
-      "source": "El País América",
-      "tier": "intl",
-      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada",
-      "ok": true,
-      "items": 60
-    },
-    {
-      "source": "Reuters",
-      "tier": "intl",
-      "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
-      "ok": true,
-      "items": 3
-    },
-    {
-      "source": "France 24",
-      "tier": "intl",
-      "url": "https://www.france24.com/es/rss",
-      "ok": true,
-      "items": 24
-    },
-    {
-      "source": "DW",
-      "tier": "intl",
-      "url": "https://rss.dw.com/rdf/rss-sp-top",
-      "ok": true,
-      "items": 25
-    }
-  ],
-  "anime": {
-    "titles": [
-      {
-        "key": "tensei-shitara-ken-deshita-ii",
-        "name": "Tensei Shitara Ken Deshita II",
-        "english": "Reincarnated as a Sword II",
-        "romaji": "Tensei Shitara Ken Deshita II",
-        "premiere": "2026-09-30",
-        "anilist_id": 159042,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "HIDIVE",
-            "url": "https://www.hidive.com/",
-            "source": "watchlist",
-            "note": "no disponible en MX"
-          }
-        ],
-        "subsplease": {
-          "title": "Tensei Shitara Ken Deshita S2",
-          "weekday": 2,
-          "time": "09:30"
-        },
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02",
-          "03"
-        ]
-      },
-      {
-        "key": "dark-summoner-to-dekiteiru",
-        "name": "Dark Summoner to Dekiteiru",
-        "english": "I'm Dating a Dark Summoner",
-        "romaji": "Dark Summoner to Dekiteiru",
-        "premiere": "2026-10-04",
-        "anilist_id": 208025,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "HIDIVE",
-            "url": "https://www.hidive.com/",
-            "source": "watchlist",
-            "note": "no disponible en MX"
-          }
-        ],
-        "subsplease": {
-          "title": "Dark Summoner to Dekiteiru",
-          "weekday": 6,
-          "time": "10:20"
-        },
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02",
-          "03"
-        ]
-      },
-      {
-        "key": "kyouran-reijou-nia-liston",
-        "name": "Kyouran Reijou Nia Liston",
-        "english": "Nia Liston: The Merciless Maiden",
-        "romaji": "Kyouran Reijou Nia Liston",
-        "premiere": "2026-10-06",
-        "anilist_id": 206949,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "HIDIVE",
-            "url": "https://www.hidive.com/",
-            "source": "watchlist",
-            "note": "no disponible en MX"
-          }
-        ],
-        "subsplease": {
-          "title": "Kyouran Reijou Nia Liston",
-          "weekday": 1,
-          "time": "06:55"
-        },
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02"
-        ]
-      },
-      {
-        "key": "yozakura-san-chi-no-daisakusen-2nd-season-cour-2",
-        "name": "Yozakura-san Chi no Daisakusen 2nd Season Cour 2",
-        "english": "Mission: Yozakura Family Season 2 Part 2",
-        "romaji": "Yozakura-san Chi no Daisakusen 2nd Season Cour 2",
-        "premiere": "2026-10-11",
-        "anilist_id": 213657,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "Disney+",
-            "url": "https://www.disneyplus.com/es-mx",
-            "source": "watchlist",
-            "note": null
-          },
-          {
-            "name": "Hulu",
-            "url": "https://www.hulu.com/",
-            "source": "watchlist",
-            "note": "no disponible en MX"
-          }
-        ],
-        "subsplease": null,
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "13",
-          "14"
-        ]
-      },
-      {
-        "key": "mahou-shoujo-ikusei-keikaku-restart",
-        "name": "Mahou Shoujo Ikusei Keikaku restart",
-        "english": "Magical Girl Raising Project restart",
-        "romaji": "Mahou Shoujo Ikusei Keikaku restart",
-        "premiere": "2026-10-05",
-        "anilist_id": 160803,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [],
-        "subsplease": null,
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02",
-          "03"
-        ]
-      },
-      {
-        "key": "kizu-darake-seijo-season-2",
-        "name": "Kizu darake Seijo Season 2",
-        "english": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
-        "romaji": "Kizu darake Seijo Season 2",
-        "premiere": "2026-10-01",
-        "anilist_id": 212144,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "Prime Video",
-            "url": "https://www.primevideo.com/",
-            "source": "nota",
-            "note": "probable (release AMZN WEB-DL)"
-          }
-        ],
-        "subsplease": null,
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02",
-          "03"
-        ]
-      },
-      {
-        "key": "aoki-denshou-welsh-shedar",
-        "name": "Aoki Denshou: Welsh & Shedar",
-        "english": "Welsh & Shedar",
-        "romaji": "Aoki Denshou: Welsh & Shedar",
-        "premiere": "2026-10-02",
-        "anilist_id": null,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "unknown",
-            "url": null,
-            "source": "watchlist",
-            "note": null
-          }
-        ],
-        "subsplease": null,
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02",
-          "03"
-        ]
-      },
-      {
-        "key": "seitokai-ni-mo-ana-wa-aru",
-        "name": "Seitokai ni mo Ana wa Aru!",
-        "english": "Even the Student Council Has Its Holes!",
-        "romaji": "Seitokai ni mo Ana wa Aru!",
-        "premiere": "2026-10-04",
-        "anilist_id": null,
-        "anilist_url": null,
-        "cover": null,
-        "color": null,
-        "status": null,
-        "total_episodes": null,
-        "platforms": [
-          {
-            "name": "unknown",
-            "url": null,
-            "source": "watchlist",
-            "note": null
-          }
-        ],
-        "subsplease": null,
-        "next": null,
-        "last_aired": null,
-        "downloaded": [
-          "01",
-          "02",
-          "03"
-        ]
-      }
-    ],
-    "today": [
-      {
-        "key": "tensei-shitara-ken-deshita-ii",
-        "episode": 4,
-        "airing_at": "2026-10-21T09:30:00-06:00",
-        "ts": 1792596600,
-        "date": "2026-10-21",
-        "sub_at": "2026-10-21T09:30:00-06:00",
-        "sub_ts": 1792596600
-      }
-    ],
-    "week": [
-      {
-        "key": "tensei-shitara-ken-deshita-ii",
-        "episode": 4,
-        "airing_at": "2026-10-21T09:30:00-06:00",
-        "ts": 1792596600,
-        "date": "2026-10-21",
-        "sub_at": "2026-10-21T09:30:00-06:00",
-        "sub_ts": 1792596600
-      },
-      {
-        "key": "kizu-darake-seijo-season-2",
-        "episode": 4,
-        "airing_at": "2026-10-22T09:00:00-06:00",
-        "ts": 1792681200,
-        "date": "2026-10-22",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "aoki-denshou-welsh-shedar",
-        "episode": 4,
-        "airing_at": "2026-10-23T06:26:00-06:00",
-        "ts": 1792758360,
-        "date": "2026-10-23",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "seitokai-ni-mo-ana-wa-aru",
-        "episode": 4,
-        "airing_at": "2026-10-24T09:30:00-06:00",
-        "ts": 1792855800,
-        "date": "2026-10-24",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "yozakura-san-chi-no-daisakusen-2nd-season-cour-2",
-        "episode": 3,
-        "airing_at": "2026-10-25T02:00:00-06:00",
-        "ts": 1792915200,
-        "date": "2026-10-25",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "dark-summoner-to-dekiteiru",
-        "episode": 4,
-        "airing_at": "2026-10-25T10:20:00-06:00",
-        "ts": 1792945200,
-        "date": "2026-10-25",
-        "sub_at": "2026-10-25T10:20:00-06:00",
-        "sub_ts": 1792945200
-      },
-      {
-        "key": "mahou-shoujo-ikusei-keikaku-restart",
-        "episode": 4,
-        "airing_at": "2026-10-26T11:00:00-06:00",
-        "ts": 1793034000,
-        "date": "2026-10-26",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "kyouran-reijou-nia-liston",
-        "episode": 4,
-        "airing_at": "2026-10-27T06:26:00-06:00",
-        "ts": 1793103960,
-        "date": "2026-10-27",
-        "sub_at": "2026-10-27T06:55:00-06:00",
-        "sub_ts": 1793105700
-      },
-      {
-        "key": "tensei-shitara-ken-deshita-ii",
-        "episode": 5,
-        "airing_at": "2026-10-28T09:30:00-06:00",
-        "ts": 1793201400,
-        "date": "2026-10-28",
-        "sub_at": "2026-10-28T09:30:00-06:00",
-        "sub_ts": 1793201400
-      },
-      {
-        "key": "kizu-darake-seijo-season-2",
-        "episode": 5,
-        "airing_at": "2026-10-29T09:00:00-06:00",
-        "ts": 1793286000,
-        "date": "2026-10-29",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "aoki-denshou-welsh-shedar",
-        "episode": 5,
-        "airing_at": "2026-10-30T06:26:00-06:00",
-        "ts": 1793363160,
-        "date": "2026-10-30",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "seitokai-ni-mo-ana-wa-aru",
-        "episode": 5,
-        "airing_at": "2026-10-31T09:30:00-06:00",
-        "ts": 1793460600,
-        "date": "2026-10-31",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "yozakura-san-chi-no-daisakusen-2nd-season-cour-2",
-        "episode": 4,
-        "airing_at": "2026-11-01T02:00:00-06:00",
-        "ts": 1793520000,
-        "date": "2026-11-01",
-        "sub_at": null,
-        "sub_ts": null
-      },
-      {
-        "key": "dark-summoner-to-dekiteiru",
-        "episode": 5,
-        "airing_at": "2026-11-01T10:20:00-06:00",
-        "ts": 1793550000,
-        "date": "2026-11-01",
-        "sub_at": "2026-11-01T10:20:00-06:00",
-        "sub_ts": 1793550000
-      },
-      {
-        "key": "mahou-shoujo-ikusei-keikaku-restart",
-        "episode": 5,
-        "airing_at": "2026-11-02T11:00:00-06:00",
-        "ts": 1793638800,
-        "date": "2026-11-02",
-        "sub_at": null,
-        "sub_ts": null
-      }
-    ],
-    "window": {
-      "start": "2026-10-21T00:00:00-06:00",
-      "end": "2026-11-04T00:00:00-06:00"
-    },
-    "subsplease_ok": true
+  {
+   "title": "Anuncian en NL feria de posgrados en Estados Unidos; participarán 19 universidades",
+   "source": "Milenio Monterrey",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ1BNN3dXU0xDZnRkOXFtM01TbERQU1FzTEl4YU9Zd3VoT2M3ODJqU0xwRjdTT3kyVmVwc0I5Rk5kVUNOaDQtc1hwamN1QTVmNGhRNnAzLXlCN3dEMTg3RjFLLUhIYVZxRWVyWC1yN3Z6VjV0Zk0ydFJtc2VZWVJGMnlVemRXSDNaUU9rTi1LME56b3RFMERF0gGXAUFVX3lxTFBuQS1xSXNkeWtJa2F4aTNBY0VSX0lKanBKWHkwUGJxYl9HZTRyLVZYc0JDdHFwSTBqMGhQMl9WVkZCc3dmSlp0Zldqc1dQQTBvbG5SWGZFUzJzYUVBM09XLVRjelU3cUo0X1N6VEdtVjFkNExVOFFrRXVsaUNHWURHSFpDTjRjQWpSWEdtaFpSa2k5MUdlVDA?oc=5",
+   "summary": "",
+   "published": "2026-10-21T14:38:26-06:00",
+   "tier": "local"
   },
-  "trends": [
-    {
-      "name": "#FelizMiércoles",
-      "url": "https://x.com/search?q=%23FelizMi%C3%A9rcoles"
-    },
-    {
-      "name": "#LaGranjaDuelo",
-      "url": "https://x.com/search?q=%23LaGranjaDuelo"
-    },
-    {
-      "name": "Necaxa",
-      "url": "https://x.com/search?q=Necaxa"
-    },
-    {
-      "name": "#LaGranjaCapataz",
-      "url": "https://x.com/search?q=%23LaGranjaCapataz"
-    },
-    {
-      "name": "#hartofut",
-      "url": "https://x.com/search?q=%23hartofut"
-    },
-    {
-      "name": "Maru Campos",
-      "url": "https://x.com/search?q=Maru%20Campos"
-    },
-    {
-      "name": "AARON EN MIXOLOGANDO",
-      "url": "https://x.com/search?q=AARON%20EN%20MIXOLOGANDO"
-    },
-    {
-      "name": "Chivas",
-      "url": "https://x.com/search?q=Chivas"
-    },
-    {
-      "name": "Chihuahua",
-      "url": "https://x.com/search?q=Chihuahua"
-    },
-    {
-      "name": "Tacubaya a Chabacano",
-      "url": "https://x.com/search?q=Tacubaya%20a%20Chabacano"
-    },
-    {
-      "name": "Barcelona",
-      "url": "https://x.com/search?q=Barcelona"
-    },
-    {
-      "name": "we love you bri",
-      "url": "https://x.com/search?q=we%20love%20you%20bri"
-    },
-    {
-      "name": "Vassago",
-      "url": "https://x.com/search?q=Vassago"
-    },
-    {
-      "name": "yanet en gente regia",
-      "url": "https://x.com/search?q=yanet%20en%20gente%20regia"
-    },
-    {
-      "name": "Champions",
-      "url": "https://x.com/search?q=Champions"
-    }
-  ],
-  "trends_meta": {
-    "fetched_at": "2026-10-21T06:53:57-06:00",
-    "place": "Monterrey"
+  {
+   "title": "Festival Santa Lucía 2026 en Monterrey: ¿A qué hora será el homenaje a Juan Gabriel este 22 de octubre?",
+   "source": "Telediario",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTZONXBSdm1NUW5TeVZYZFRSUEpnUTB1dXpoZEVoRWd0OFRkcTBlUkZzdUVJRXFYZFhSZk5FVnVQU1I3eXRZYkxTMVZWbUtEZzU3OWxsNVZYZEVUbERfZ0ZVQlN2V2dZNHA5XzU5RzJjODR6a0JmY3NLcGVySDloZWM1b2ZQZUU4Q1lfSWRnTmkzMTAtdC1LR1RTMXZyNm9IclBwZ01aVzVmd9IBqgFBVV95cUxQeDFmS3dCNW9lNEdib1F0MlBHc1gwQXJPQTJqMEtRZDRjOEJRbFBpcTdSWnFRY0JXemlvaUNaNjdYZVY3S2c4YUNzVXVreDY0YlZTN3hqU0JiWmEyS0ZxR2dycUhicVp2cUNLa0RHRFkzakhnNVFjX0RUTDNWOGY0VWQwMmdzWVNzV3l2MERESkJtdzNwd1VYcEJYd3lVUUFtYmZ1UFR1VHpWQQ?oc=5",
+   "summary": "",
+   "published": "2026-10-21T14:23:55-06:00",
+   "tier": "local"
+  },
+  {
+   "title": "Hallan camioneta usada en doble ejecución en Gómez Morín",
+   "source": "El Norte",
+   "link": "https://www.elnorte.com/hallan-camioneta-usada-en-doble-ejecucion-en-gomez-morin/ar3299242",
+   "summary": "Fiscalía informa que fue localizada en Santa Catarina la camioneta en la que iban sicarios que ejecutaron a dos ex policías en Gómez Morín.",
+   "published": "2026-10-21T11:45:18-06:00",
+   "tier": "local"
+  },
+  {
+   "title": "UIF y Guardia Nacional firman convenio de colaboración; buscan fortalecer combate contra el lavado de dinero",
+   "source": "El Universal",
+   "link": "https://www.eluniversal.com.mx/cartera/uif-y-guardia-nacional-firman-convenio-de-colaboracion-buscan-fortalecer-combate-contra-el-lavado-de-dinero/",
+   "summary": "El acuerdo contempla el intercambio de información, la elaboración de productos de inteligencia financiera y la capacitación para detectar operaciones con recursos de procedencia ilícita",
+   "published": "2026-10-21T14:49:22-06:00",
+   "tier": "national"
+  },
+  {
+   "title": "El peso, la moneda más depreciada del mundo ante el dólar: Tipo de cambio cierra en 18.67 unidades",
+   "source": "El Financiero",
+   "link": "https://www.elfinanciero.com.mx/mercados/2026/10/21/peso-dolar-tipo-de-cambio-precio-hoy-21-de-octubre-de-2026/",
+   "summary": "Especialistas esperan que la Fed suba su tasa en 25 puntos base en la reunión de diciembre, mientras que el Banxico no tocaría su referencial en todo 2026 y 2027.",
+   "published": "2026-10-21T14:46:13-06:00",
+   "tier": "national"
+  },
+  {
+   "title": "Conmoción en Guayaquil tras fallecer un sacerdote aplastado por una cruz en misa: “Su muerte ha sido un sacrificio”",
+   "source": "El País América",
+   "link": "https://elpais.com/america/2026-10-21/conmocion-en-guayaquil-tras-fallecer-un-sacerdote-aplastado-por-una-cruz-en-misa-su-muerte-ha-sido-un-sacrificio.html",
+   "summary": "El padre Patricio Sánchez atendía a una comunidad golpeada por la violencia criminal, que ha quedado desolada por la tragedia",
+   "published": "2026-10-21T14:45:50-06:00",
+   "tier": "intl"
+  },
+  {
+   "title": "A pesar de un renovado optimismo, ¿puede Zelensky seguir considerando a Trump como un aliado en la guerra contra Rusia?",
+   "source": "BBC Mundo",
+   "link": "https://www.bbc.com/mundo/articles/cm0rl0e9ejv2o?at_medium=RSS&at_campaign=rss",
+   "summary": "Es poco probable que el abrazo del líder ucraniano con Steve Witkoff en la capital noruega disipe las dudas sobre la política estadounidense hacia su país, escribe Paul Adams.",
+   "published": "2026-10-21T14:38:01-06:00",
+   "tier": "intl"
   }
+ ],
+ "news_sources": [
+  {
+   "source": "El Porvenir",
+   "tier": "local",
+   "url": "https://elporvenir.mx/feedgooglenews/local",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "source": "El Norte",
+   "tier": "local",
+   "url": "https://www.elnorte.com/rss/portada.xml",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "source": "Milenio Monterrey",
+   "tier": "local",
+   "url": "https://news.google.com/rss/search?q=site%3Amilenio.com%20monterrey%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 33
+  },
+  {
+   "source": "Telediario",
+   "tier": "local",
+   "url": "https://news.google.com/rss/search?q=site%3Atelediario.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "source": "Info7",
+   "tier": "local",
+   "url": "https://news.google.com/rss/search?q=site%3Ainfo7.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "source": "ABC Noticias",
+   "tier": "local",
+   "url": "https://news.google.com/rss/search?q=site%3Aabcnoticias.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 18
+  },
+  {
+   "source": "El Horizonte",
+   "tier": "local",
+   "url": "https://news.google.com/rss/search?q=site%3Aelhorizonte.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "source": "Google News Monterrey",
+   "tier": "local",
+   "url": "https://news.google.com/rss/headlines/section/geo/Monterrey?hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 33
+  },
+  {
+   "source": "El Universal",
+   "tier": "national",
+   "url": "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/?outputType=xml",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "El Financiero",
+   "tier": "national",
+   "url": "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "Excélsior",
+   "tier": "national",
+   "url": "https://www.excelsior.com.mx/rss",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "Excélsior",
+   "tier": "national",
+   "url": "https://news.google.com/rss/search?q=site%3Aexcelsior.com.mx%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "Infobae México",
+   "tier": "national",
+   "url": "https://news.google.com/rss/search?q=site%3Ainfobae.com/mexico%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "El Porvenir",
+   "tier": "national",
+   "url": "https://elporvenir.mx/feedgooglenews/nacional",
+   "ok": true,
+   "items": 30
+  },
+  {
+   "source": "La Jornada",
+   "tier": "national",
+   "url": "https://www.jornada.com.mx/rss/edicion.xml",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "BBC Mundo",
+   "tier": "intl",
+   "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
+   "ok": true,
+   "items": 34
+  },
+  {
+   "source": "El País América",
+   "tier": "intl",
+   "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada",
+   "ok": true,
+   "items": 60
+  },
+  {
+   "source": "Reuters",
+   "tier": "intl",
+   "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20when%3A1d&hl=es-419&gl=MX&ceid=MX:es-419",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "source": "France 24",
+   "tier": "intl",
+   "url": "https://www.france24.com/es/rss",
+   "ok": true,
+   "items": 24
+  },
+  {
+   "source": "DW",
+   "tier": "intl",
+   "url": "https://rss.dw.com/rdf/rss-sp-top",
+   "ok": true,
+   "items": 24
+  }
+ ],
+ "anime": {
+  "titles": [
+   {
+    "key": "tensei-shitara-ken-deshita-ii",
+    "name": "Tensei Shitara Ken Deshita II",
+    "english": "Reincarnated as a Sword II",
+    "romaji": "Tensei Shitara Ken Deshita II",
+    "premiere": "2026-09-30",
+    "anilist_id": 159042,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/",
+      "source": "watchlist",
+      "note": "no disponible en MX"
+     }
+    ],
+    "subsplease": {
+     "title": "Tensei Shitara Ken Deshita S2",
+     "weekday": 2,
+     "time": "09:30"
+    },
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02",
+     "03"
+    ]
+   },
+   {
+    "key": "dark-summoner-to-dekiteiru",
+    "name": "Dark Summoner to Dekiteiru",
+    "english": "I'm Dating a Dark Summoner",
+    "romaji": "Dark Summoner to Dekiteiru",
+    "premiere": "2026-10-04",
+    "anilist_id": 208025,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/",
+      "source": "watchlist",
+      "note": "no disponible en MX"
+     }
+    ],
+    "subsplease": {
+     "title": "Dark Summoner to Dekiteiru",
+     "weekday": 6,
+     "time": "10:20"
+    },
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02",
+     "03"
+    ]
+   },
+   {
+    "key": "kyouran-reijou-nia-liston",
+    "name": "Kyouran Reijou Nia Liston",
+    "english": "Nia Liston: The Merciless Maiden",
+    "romaji": "Kyouran Reijou Nia Liston",
+    "premiere": "2026-10-06",
+    "anilist_id": 206949,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "HIDIVE",
+      "url": "https://www.hidive.com/",
+      "source": "watchlist",
+      "note": "no disponible en MX"
+     }
+    ],
+    "subsplease": {
+     "title": "Kyouran Reijou Nia Liston",
+     "weekday": 1,
+     "time": "06:55"
+    },
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02"
+    ]
+   },
+   {
+    "key": "yozakura-san-chi-no-daisakusen-2nd-season-cour-2",
+    "name": "Yozakura-san Chi no Daisakusen 2nd Season Cour 2",
+    "english": "Mission: Yozakura Family Season 2 Part 2",
+    "romaji": "Yozakura-san Chi no Daisakusen 2nd Season Cour 2",
+    "premiere": "2026-10-11",
+    "anilist_id": 213657,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/es-mx",
+      "source": "watchlist",
+      "note": null
+     },
+     {
+      "name": "Hulu",
+      "url": "https://www.hulu.com/",
+      "source": "watchlist",
+      "note": "no disponible en MX"
+     }
+    ],
+    "subsplease": null,
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "13",
+     "14"
+    ]
+   },
+   {
+    "key": "mahou-shoujo-ikusei-keikaku-restart",
+    "name": "Mahou Shoujo Ikusei Keikaku restart",
+    "english": "Magical Girl Raising Project restart",
+    "romaji": "Mahou Shoujo Ikusei Keikaku restart",
+    "premiere": "2026-10-05",
+    "anilist_id": 160803,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [],
+    "subsplease": null,
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02",
+     "03"
+    ]
+   },
+   {
+    "key": "kizu-darake-seijo-season-2",
+    "name": "Kizu darake Seijo Season 2",
+    "english": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
+    "romaji": "Kizu darake Seijo Season 2",
+    "premiere": "2026-10-01",
+    "anilist_id": 212144,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "Prime Video",
+      "url": "https://www.primevideo.com/",
+      "source": "nota",
+      "note": "probable (release AMZN WEB-DL)"
+     }
+    ],
+    "subsplease": null,
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02",
+     "03"
+    ]
+   },
+   {
+    "key": "aoki-denshou-welsh-shedar",
+    "name": "Aoki Denshou: Welsh & Shedar",
+    "english": "Welsh & Shedar",
+    "romaji": "Aoki Denshou: Welsh & Shedar",
+    "premiere": "2026-10-02",
+    "anilist_id": null,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "unknown",
+      "url": null,
+      "source": "watchlist",
+      "note": null
+     }
+    ],
+    "subsplease": null,
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02",
+     "03"
+    ]
+   },
+   {
+    "key": "seitokai-ni-mo-ana-wa-aru",
+    "name": "Seitokai ni mo Ana wa Aru!",
+    "english": "Even the Student Council Has Its Holes!",
+    "romaji": "Seitokai ni mo Ana wa Aru!",
+    "premiere": "2026-10-04",
+    "anilist_id": null,
+    "anilist_url": null,
+    "cover": null,
+    "color": null,
+    "status": null,
+    "total_episodes": null,
+    "platforms": [
+     {
+      "name": "unknown",
+      "url": null,
+      "source": "watchlist",
+      "note": null
+     }
+    ],
+    "subsplease": null,
+    "next": null,
+    "last_aired": null,
+    "downloaded": [
+     "01",
+     "02",
+     "03"
+    ]
+   }
+  ],
+  "today": [],
+  "week": [],
+  "window": {
+   "start": "2026-10-21T00:00:00-06:00",
+   "end": "2026-11-04T00:00:00-06:00"
+  },
+  "subsplease_ok": true
+ },
+ "trends": [
+  {
+   "name": "Tigres",
+   "url": "https://x.com/search?q=Tigres"
+  },
+  {
+   "name": "#PagoAnticipadoPlaydoit",
+   "url": "https://x.com/search?q=%23PagoAnticipadoPlaydoit"
+  },
+  {
+   "name": "#SurvivorPlaydoit",
+   "url": "https://x.com/search?q=%23SurvivorPlaydoit"
+  },
+  {
+   "name": "Diomande",
+   "url": "https://x.com/search?q=Diomande"
+  },
+  {
+   "name": "BioWare",
+   "url": "https://x.com/search?q=BioWare"
+  },
+  {
+   "name": "Glee",
+   "url": "https://x.com/search?q=Glee"
+  },
+  {
+   "name": "Mass Effect",
+   "url": "https://x.com/search?q=Mass%20Effect"
+  },
+  {
+   "name": "Arsenal",
+   "url": "https://x.com/search?q=Arsenal"
+  },
+  {
+   "name": "Harry Kane",
+   "url": "https://x.com/search?q=Harry%20Kane"
+  },
+  {
+   "name": "Nico Paz",
+   "url": "https://x.com/search?q=Nico%20Paz"
+  },
+  {
+   "name": "Manchester United",
+   "url": "https://x.com/search?q=Manchester%20United"
+  },
+  {
+   "name": "Courtois",
+   "url": "https://x.com/search?q=Courtois"
+  },
+  {
+   "name": "Modalidad 40",
+   "url": "https://x.com/search?q=Modalidad%2040"
+  },
+  {
+   "name": "Bernardo Silva",
+   "url": "https://x.com/search?q=Bernardo%20Silva"
+  },
+  {
+   "name": "Carrick",
+   "url": "https://x.com/search?q=Carrick"
+  }
+ ],
+ "trends_meta": {
+  "fetched_at": "2026-10-21T14:53:27-06:00",
+  "place": "Monterrey"
+ }
 }
