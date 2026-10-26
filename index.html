@@ -70,6 +70,18 @@
     <div id="animeBody"><div class="skeleton" style="height:90px"></div></div>
     <p class="muted tiny legend">Emisión = hora oficial en Japón convertida a Monterrey (AniList). Sub = hora típica de SubsPlease.</p>
   </section>
+  <!-- EVENTOS -->
+  <section class="card events" id="eventos" aria-labelledby="h-events">
+    <div class="card-head">
+      <h2 id="h-events"><span class="h-ico">🎟️</span> Eventos en Monterrey</h2>
+      <div class="tabs" role="tablist">
+        <button role="tab" class="tab ev-tab active" data-evtab="hoy" aria-selected="true">Hoy</button>
+        <button role="tab" class="tab ev-tab" data-evtab="semana" aria-selected="false">Resto de la semana</button>
+      </div>
+    </div>
+    <div id="eventsBody"><div class="skeleton" style="height:90px"></div></div>
+    <p class="muted tiny legend" id="eventsMeta"></p>
+  </section>
 </main>
 
 <footer class="foot">
@@ -77,7 +89,9 @@
   <p class="muted tiny" id="weatherUpdated"></p>
   <p class="muted tiny">Datos: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> ·
     <a href="https://anilist.co/" target="_blank" rel="noopener">AniList</a> ·
-    <a href="https://subsplease.org/schedule/" target="_blank" rel="noopener">SubsPlease</a> · RSS de cada medio</p>
+    <a href="https://subsplease.org/schedule/" target="_blank" rel="noopener">SubsPlease</a> ·
+    <a href="https://www.ticketmaster.com.mx/discover/monterrey" target="_blank" rel="noopener">Ticketmaster</a> ·
+    <a href="https://www.eventbrite.com.mx/d/mexico--monterrey/events/" target="_blank" rel="noopener">Eventbrite</a> · RSS de cada medio</p>
 </footer>
 <script src="app.js" defer></script>
 </body>

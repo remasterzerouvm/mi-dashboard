@@ -281,11 +281,53 @@
     }
     body.innerHTML = html;
   }
-  document.querySelectorAll('.tab').forEach(function (b) {
+  document.querySelectorAll('.tab[data-tab]').forEach(function (b) {
     b.addEventListener('click', function () {
       state.tab = b.getAttribute('data-tab');
-      document.querySelectorAll('.tab').forEach(function (x) { var on = x === b; x.classList.toggle('active', on); x.setAttribute('aria-selected', on); });
+      document.querySelectorAll('.tab[data-tab]').forEach(function (x) { var on = x === b; x.classList.toggle('active', on); x.setAttribute('aria-selected', on); });
       renderAnime();
+    });
+  });
+
+  // ---------- eventos ----------
+  var CAT_ICO = { 'Concierto': '🎤', 'Teatro': '🎭', 'Teatro / show': '🎭', 'Comedia': '😂', 'Expo / convención': '🏛️', 'Expo': '🏛️',
+    'Convención': '🏛️', 'Fiesta': '🪩', 'Deportes': '🏟️', 'Taller / charla': '🧑‍🏫', 'Taller': '🧑‍🏫', 'Festival': '🎪', 'Danza': '💃' };
+  state.evtab = 'hoy';
+  function evCard(e, showDay) {
+    var when = (showDay ? dayLabel(e.date) + (e.time ? ' · ' : '') : '') + (e.time || (showDay ? '' : 'Todo el día'));
+    return '<a class="ev" href="' + safeUrl(e.url) + '" target="_blank" rel="noopener">' +
+      '<div class="ev-ico" aria-hidden="true">' + (CAT_ICO[e.category] || '📍') + '</div><div class="ev-main">' +
+      '<div class="ev-title">' + esc(e.title) + '</div>' +
+      '<div class="row">' + (when ? '<span class="pill ep">' + esc(when) + '</span>' : '') +
+      '<span class="pill">' + esc(e.category) + '</span></div>' +
+      '<div class="muted small ev-venue">📍 ' + esc(e.venue || 'Por confirmar') + (e.city && e.city.toLowerCase() !== 'monterrey' ? ', ' + esc(e.city) : '') +
+      ' <span class="tiny">· ' + esc(e.source) + '</span></div></div></a>';
+  }
+  function renderEvents() {
+    var body = $('eventsBody'), ev = state.data && state.data.events, today = ymd(new Date());
+    var items = (ev && ev.items) || [], html;
+    if (state.evtab === 'hoy') {
+      var t = items.filter(function (e) { return e.date === today; });
+      html = t.length ? '<div class="ev-list">' + t.map(function (e) { return evCard(e, false); }).join('') + '</div>'
+        : '<div class="empty">No encontré eventos para hoy.</div>';
+    } else {
+      var groups = {};
+      items.filter(function (e) { return e.date > today; }).forEach(function (e) { (groups[e.date] = groups[e.date] || []).push(e); });
+      var keys = Object.keys(groups).sort();
+      html = keys.length ? keys.map(function (k) {
+        return '<div class="day-group"><p class="day-label">' + esc(dayLabel(k)) + '</p><div class="ev-list">' +
+          groups[k].map(function (e) { return evCard(e, false); }).join('') + '</div></div>';
+      }).join('') : '<div class="empty">No hay más eventos esta semana.</div>';
+    }
+    body.innerHTML = html;
+    $('eventsMeta').textContent = ev && ev.fetched_at ? 'Fuentes: ' + (ev.sources || []).map(function (s) { return s.name; }).join(', ') +
+      ' · consultado ' + rel(ev.fetched_at) + (ev.stale ? ' (sin actualizar: fuentes caídas)' : '') + '. Sin hora = consulta el enlace.' : '';
+  }
+  document.querySelectorAll('.ev-tab').forEach(function (b) {
+    b.addEventListener('click', function () {
+      state.evtab = b.getAttribute('data-evtab');
+      document.querySelectorAll('.ev-tab').forEach(function (x) { var on = x === b; x.classList.toggle('active', on); x.setAttribute('aria-selected', on); });
+      renderEvents();
     });
   });
 
@@ -322,6 +364,7 @@
         $('updated').textContent = d.generated_at ? fmt(new Date(d.generated_at), { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false }) + ' (hora de Monterrey) · ' + rel(d.generated_at) : '—';
         renderNews(d);
         renderAnime();
+        try { renderEvents(); } catch (e) { console.warn('events', e); }
         refreshAniList();
       })
       .catch(function (e) {
@@ -329,6 +372,7 @@
         state.data = { news: [], anime: { titles: [], week: [] }, trends: [] };
         $('newsList').innerHTML = '<li class="empty">No se pudo cargar data.json.</li>';
         $('animeBody').innerHTML = '<div class="empty">No se pudo cargar data.json.</div>';
+        $('eventsBody').innerHTML = '<div class="empty">No se pudo cargar data.json.</div>';
       });
   }
 

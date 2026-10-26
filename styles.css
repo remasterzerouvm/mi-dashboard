@@ -91,12 +91,12 @@ html[data-theme="dark"] .i-moon, html[data-theme="light"] .i-sun { display: none
 .grid {
   max-width: 1180px; margin: 0 auto; padding: 12px 14px 8px;
   display: grid; gap: 14px; grid-template-columns: 1fr;
-  grid-template-areas: "clima" "noticias" "anime";
+  grid-template-areas: "clima" "noticias" "anime" "eventos";
 }
-.weather { grid-area: clima; } .news { grid-area: noticias; } .anime { grid-area: anime; }
+.weather { grid-area: clima; } .news { grid-area: noticias; } .anime { grid-area: anime; } .events { grid-area: eventos; }
 @media (min-width: 900px) {
   .grid { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 18px; padding: 16px 18px;
-    grid-template-areas: "clima noticias" "anime noticias"; grid-template-rows: auto 1fr; align-items: start; }
+    grid-template-areas: "clima noticias" "anime noticias" "eventos eventos"; grid-template-rows: auto 1fr auto; align-items: start; }
 }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -205,3 +205,16 @@ h2 { margin: 0; font-size: 1.1rem; font-weight: 700; letter-spacing: -.01em; dis
 @keyframes sh { to { background-position: -200% 0; } }
 @media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } * { transition: none !important; } }
 @media (max-width: 380px) { .now-temp { font-size: 3rem; } .now-icon { font-size: 3.4rem; } .tab { padding: 6px 8px; } }
+
+/* Eventos */
+.ev-list { display: grid; gap: 10px; }
+@media (min-width: 900px) { .ev-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ev { display: flex; gap: 12px; align-items: flex-start; padding: 12px; border-radius: var(--radius-sm);
+  background: var(--chip); border: 1px solid var(--line); text-decoration: none; color: var(--text); min-width: 0; }
+.ev:active { transform: scale(.99); }
+.ev-ico { flex: none; width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center; font-size: 1.35rem;
+  background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.ev-main { min-width: 0; flex: 1; }
+.ev-title { font-weight: 700; line-height: 1.3; margin-bottom: 6px; overflow-wrap: anywhere; }
+.ev .row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.ev-venue { overflow-wrap: anywhere; }
